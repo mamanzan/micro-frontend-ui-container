@@ -7,6 +7,10 @@
 
   --zano-font-size: 2rem;
 
+  --zano-padding-sm: 0.4rem;
+  --zano-padding: 0.6rem;
+  --zano-padding-lg: 0.8rem;
+
   --zano-gray-dark2: hsla(0, 0%, 20%, 1);
   --zano-gray-dark1: hsla(0, 0%, 40%, 1);
   --zano-gray: hsla(0, 0%, 60%, 1);
@@ -42,9 +46,10 @@ body {
   color: white;
 }
 
-@import "./Dropdown.scss";
-@import "./Card.scss";
-@import "./Navbar.scss";
-@import "./Sidebar.scss";
-@import "./LayoutSidebarMain.scss";
-@import "./Components.scss";
+@import "./components/Dropdown.scss";
+@import "./components/Card.scss";
+@import "./components/Navbar.scss";
+@import "./components/Sidebar.scss";
+@import "./components/LayoutSidebarMain.scss";
+@import "./components/Components.scss";
+@import "./components/TextField.scss";

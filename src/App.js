@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Switch, Router, Link } from "react-router-dom";
 import { createBrowserHistory } from "history";
+import MFEApp from "./components/MFEApp";
 import ReactApp from "./components/ReactApp";
 import VueApp from "./components/VueApp";
 
@@ -34,7 +35,8 @@ export default () => {
       <Header />
       <Switch>
         <Route path="/vue" component={VueApp} />
-        <Route path="/" component={ReactApp} />
+        <Route path="/react" component={ReactApp} />
+        <Route path="/" component={MFEApp} />
       </Switch>
     </Router>
   );
