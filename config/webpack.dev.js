@@ -24,6 +24,7 @@ const devConfig = {
     new ModuleFederationPlugin({
       name: "container",
       remotes: {
+        styles: "styles@http://localhost:8083/remoteEntry.js",
         react: "react@http://localhost:8081/remoteEntry.js",
         vue: "vue@http://localhost:8082/remoteEntry.js",
       },
