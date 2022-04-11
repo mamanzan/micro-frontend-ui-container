@@ -4,7 +4,7 @@ import { createBrowserHistory } from "history";
 import MFEApp from "./components/MFEApp";
 import ReactApp from "./components/ReactApp";
 import VueApp from "./components/VueApp";
-import StylesApp from "styles/StylesApp";
+import "styles/StylesApp";
 
 /*Framework icons*/
 import reactLogo from "./assets/react.png";
